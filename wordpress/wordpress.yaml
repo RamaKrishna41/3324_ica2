@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: wordpress-container
-        image: ramakrishna41/wordpress      # which image it will use
+        image: wordpress      # which image it will use
         ports:
         - containerPort: 80     # Port exposed by container inside the Pod
         envFrom:
