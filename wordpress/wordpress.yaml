@@ -29,7 +29,7 @@ spec:
   selector:
     matchLabels:
       version: v1           # Pod label to be used by Service to select the pods from this deployment
-  replicas: 1                 # number of replica of the Pods
+  replicas: 2                 # number of replica of the Pods
   template:
     metadata:
       labels:
